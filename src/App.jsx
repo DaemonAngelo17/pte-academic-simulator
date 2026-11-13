@@ -77,6 +77,14 @@ export default function App() {
 function AppContent() {
   const [currentView, setCurrentView] = useState(() => {
     try {
+      const params = new URLSearchParams(window.location.search);
+      const viewParam = params.get('view');
+      if (viewParam === 'student' || viewParam === 'candidate') {
+        return 'student';
+      }
+      if (viewParam === 'teacher' || viewParam === 'portal') {
+        return 'teacher';
+      }
       const savedCp = localStorage.getItem('pte_active_checkpoint');
       if (savedCp) {
         const parsed = JSON.parse(savedCp);
@@ -107,6 +115,9 @@ function AppContent() {
 
   const [activeSessionCode, setActiveSessionCode] = useState(() => {
     try {
+      const params = new URLSearchParams(window.location.search);
+      const codeParam = params.get('code') || params.get('session');
+      if (codeParam) return codeParam;
       const savedCp = localStorage.getItem('pte_active_checkpoint');
       if (savedCp) {
         const parsed = JSON.parse(savedCp);
@@ -119,6 +130,10 @@ function AppContent() {
   const [showSettingsModal, setShowSettingsModal] = useState(false);
   const [networkInfo, setNetworkInfo] = useState(null);
   const [copiedCandidateUrl, setCopiedCandidateUrl] = useState(false);
+
+  const candidateLanUrl = networkInfo?.localIp
+    ? `http://${networkInfo.localIp}:5173/?view=student`
+    : (networkInfo?.candidateUrl ? `${networkInfo.candidateUrl.split('?')[0]}/?view=student` : `${window.location.origin}/?view=student`);
 
   // Sync with local backend
   useEffect(() => {
@@ -198,11 +213,11 @@ function AppContent() {
 
           <div className="flex items-center space-x-3 text-xs">
             {/* Live Network Status Pill */}
-            {networkInfo?.candidateUrl && (
+            {candidateLanUrl && (
               <button
                 type="button"
                 onClick={() => {
-                  navigator.clipboard.writeText(networkInfo.candidateUrl);
+                  navigator.clipboard.writeText(candidateLanUrl);
                   setCopiedCandidateUrl(true);
                   setTimeout(() => setCopiedCandidateUrl(false), 2000);
                 }}
@@ -210,7 +225,7 @@ function AppContent() {
                 title="Click to copy remote testing link for candidate devices on this network"
               >
                 <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
-                <span>{networkInfo.candidateUrl}</span>
+                <span>{candidateLanUrl}</span>
                 <span className="text-[10px] text-slate-500 pl-1 border-l border-slate-800">
                   {copiedCandidateUrl ? <span className="text-emerald-400 font-bold">Copied!</span> : 'Copy'}
                 </span>
@@ -287,7 +302,7 @@ function AppContent() {
         )}
 
         {/* Remote Candidate Access Banner */}
-        {networkInfo?.candidateUrl && (
+        {candidateLanUrl && (
           <div className="max-w-4xl mx-auto w-full mb-8 bg-slate-950/90 border border-slate-800 rounded-xl p-4 flex flex-col sm:flex-row sm:items-center justify-between gap-3 shadow-lg shadow-black/40">
             <div className="flex items-center space-x-3">
               <div className="w-10 h-10 rounded-lg bg-emerald-500/10 border border-emerald-500/30 flex items-center justify-center text-emerald-400 shrink-0">
@@ -297,7 +312,7 @@ function AppContent() {
                 <div className="flex flex-wrap items-center gap-2">
                   <span className="text-xs font-bold text-white">Remote Testing Terminal:</span>
                   <span className="font-mono text-xs font-bold text-blue-300 bg-blue-950/80 border border-blue-800/60 px-2 py-0.5 rounded">
-                    {networkInfo.candidateUrl}
+                    {candidateLanUrl}
                   </span>
                   <span className="text-[10px] font-bold text-emerald-400 bg-emerald-950/80 border border-emerald-800/50 px-2 py-0.5 rounded-full">
                     LAN / Wi-Fi Active
@@ -312,7 +327,7 @@ function AppContent() {
               <button
                 type="button"
                 onClick={() => {
-                  navigator.clipboard.writeText(networkInfo.candidateUrl);
+                  navigator.clipboard.writeText(candidateLanUrl);
                   setCopiedCandidateUrl(true);
                   setTimeout(() => setCopiedCandidateUrl(false), 2000);
                 }}

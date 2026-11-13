@@ -18,3 +18,4 @@ fi
 
 echo "✨ Launching Backend API + Vite UI..."
 npm run dev
+

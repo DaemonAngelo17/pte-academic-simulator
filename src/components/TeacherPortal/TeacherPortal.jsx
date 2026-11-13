@@ -45,9 +45,12 @@ export default function TeacherPortal({
       .catch(() => {});
   }, []);
 
+  const candidateLanUrl = networkInfo?.localIp
+    ? `http://${networkInfo.localIp}:5173/?view=student`
+    : (networkInfo?.candidateUrl ? `${networkInfo.candidateUrl.split('?')[0]}/?view=student` : `${window.location.origin}/?view=student`);
+
   const handleCopyCandidateLink = () => {
-    const url = networkInfo?.candidateUrl || window.location.origin;
-    navigator.clipboard.writeText(url);
+    navigator.clipboard.writeText(candidateLanUrl);
     setCopiedLink(true);
     setTimeout(() => setCopiedLink(false), 2000);
   };
@@ -76,7 +79,7 @@ export default function TeacherPortal({
             <span className="w-2.5 h-2.5 rounded-full bg-emerald-400 animate-pulse"></span>
             <span className="text-slate-400 font-medium">Remote Candidate URL:</span>
             <span className="font-mono font-bold text-blue-300">
-              {networkInfo?.candidateUrl || window.location.origin}
+              {candidateLanUrl}
             </span>
           </div>
           <button
