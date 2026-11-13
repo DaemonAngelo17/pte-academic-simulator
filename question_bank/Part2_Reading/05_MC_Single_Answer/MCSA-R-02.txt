@@ -1,0 +1,13 @@
+PASSAGE:
+The bystander effect, a well-documented social psychological phenomenon, posits that individuals are significantly less likely to offer help to a victim in distress when other passive observers are present. This inhibitory effect is largely attributed to diffusion of responsibility, wherein each onlooker assumes another will intervene, combined with pluralistic ignorance, where individuals interpret the inaction of others as evidence that the situation is benign.
+
+QUESTION:
+According to the passage, why do bystanders often fail to intervene during an emergency?
+
+OPTIONS:
+A) They assume other observers will take responsibility or believe inaction implies no danger.
+B) They are legally prohibited from assisting strangers without certified medical training.
+C) They experience immediate temporary sensory impairment from cognitive overload.
+D) They inherently lack all physiological capacity for empathic concern.
+
+ANSWER: A

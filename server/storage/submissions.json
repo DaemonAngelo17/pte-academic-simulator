@@ -1,0 +1,228 @@
+[
+  {
+    "id": "SUB-DEMO-1794295461154",
+    "studentId": "STD-1001",
+    "studentName": "Emma Watson",
+    "targetScore": "PTE 79+",
+    "sessionCode": "PTE-2026-A",
+    "submittedAt": "2026-11-10T07:24:21.154Z",
+    "scope": "all",
+    "totalItems": 68,
+    "responses": {
+      "RA-01": {
+        "recordedAudio": {
+          "durationRecorded": 28
+        }
+      },
+      "RA-02": {
+        "recordedAudio": {
+          "durationRecorded": 31
+        }
+      },
+      "RS-01": {
+        "recordedAudio": {
+          "durationRecorded": 7
+        }
+      },
+      "DI-01": {
+        "recordedAudio": {
+          "durationRecorded": 35
+        }
+      },
+      "RL-01": {
+        "recordedAudio": {
+          "durationRecorded": 38
+        }
+      },
+      "SGD-01": {
+        "recordedAudio": {
+          "durationRecorded": 72
+        }
+      },
+      "RTS-01": {
+        "recordedAudio": {
+          "durationRecorded": 29
+        }
+      },
+      "ASQ-01": {
+        "textAnswer": "Stethoscope"
+      },
+      "SWT-01": {
+        "text": "The accelerated melting of polar ice shelves caused by anthropogenic emissions poses severe coastal flooding risks, necessitating immediate multilateral decarbonization efforts.",
+        "wordCount": 22,
+        "sentenceCount": 1
+      },
+      "SWT-02": {
+        "text": "Although artificial intelligence improves algorithmic diagnostic efficiency in clinical settings, human oversight remains imperative for holistic patient health outcomes.",
+        "wordCount": 20,
+        "sentenceCount": 1
+      },
+      "WE-01": {
+        "text": "In contemporary society, the widespread integration of autonomous technologies has fundamentally transformed industrial productivity. While computational automation guarantees operational precision, human critical thinking and ethical empathy remain irreplaceable. Educational institutions must consequently cultivate interdisciplinary curricula that harmonize technical proficiency with humane governance.",
+        "wordCount": 142,
+        "sentenceCount": 3
+      },
+      "FIB-RW-01": {
+        "autoScore": {
+          "correctBlanks": 4,
+          "totalBlanks": 4
+        }
+      },
+      "FIB-RW-02": {
+        "autoScore": {
+          "correctBlanks": 3,
+          "totalBlanks": 4
+        }
+      },
+      "MCMA-R-01": {
+        "autoScore": {
+          "correctChosen": 2,
+          "incorrectChosen": 0,
+          "maxPoints": 2
+        }
+      },
+      "RO-R-01": {
+        "autoScore": {
+          "correctAdjacentPairs": 3,
+          "maxPoints": 3
+        }
+      },
+      "FIB-R-01": {
+        "autoScore": {
+          "correctBlanks": 4,
+          "totalBlanks": 4
+        }
+      },
+      "MCSA-R-01": {
+        "autoScore": {
+          "score": 1
+        }
+      },
+      "SST-01": {
+        "text": "The speaker argued that sustainable architecture requires integrating photovoltaic materials into standard building codes to reduce long-term operational carbon emissions across urban infrastructure.",
+        "wordCount": 24,
+        "sentenceCount": 1
+      },
+      "MCMA-L-01": {
+        "autoScore": {
+          "correctChosen": 2,
+          "incorrectChosen": 0,
+          "maxPoints": 2
+        }
+      },
+      "FIB-L-01": {
+        "autoScore": {
+          "correctBlanks": 3,
+          "totalBlanks": 3
+        }
+      },
+      "HCS-01": {
+        "autoScore": {
+          "score": 1
+        }
+      },
+      "MCSA-L-01": {
+        "autoScore": {
+          "score": 1
+        }
+      },
+      "SMW-01": {
+        "autoScore": {
+          "score": 1
+        }
+      },
+      "HIW-01": {
+        "autoScore": {
+          "correctClicks": 3,
+          "incorrectClicks": 0,
+          "totalIncorrectWords": 3
+        }
+      },
+      "WFD-01": {
+        "autoScore": {
+          "correctWords": 10,
+          "totalWords": 10
+        }
+      },
+      "WFD-02": {
+        "autoScore": {
+          "correctWords": 8,
+          "totalWords": 9
+        }
+      }
+    },
+    "manualScores": {
+      "RA-01": {
+        "content": 5,
+        "fluency": 4.5,
+        "pronunciation": 4.5
+      },
+      "RA-02": {
+        "content": 4.5,
+        "fluency": 4,
+        "pronunciation": 4
+      },
+      "RS-01": {
+        "content": 3,
+        "fluency": 4.5,
+        "pronunciation": 4.5
+      },
+      "DI-01": {
+        "content": 5,
+        "fluency": 4.5,
+        "pronunciation": 4
+      },
+      "RL-01": {
+        "content": 4.5,
+        "fluency": 4,
+        "pronunciation": 4
+      },
+      "SGD-01": {
+        "content": 4.5,
+        "fluency": 4,
+        "pronunciation": 4.5
+      },
+      "RTS-01": {
+        "content": 4.5,
+        "fluency": 4.5,
+        "pronunciation": 4
+      },
+      "ASQ-01": {
+        "content": 1,
+        "fluency": 0,
+        "pronunciation": 0
+      },
+      "SWT-01": {
+        "content": 2,
+        "form": 1,
+        "grammar": 2,
+        "vocabulary": 2
+      },
+      "SWT-02": {
+        "content": 2,
+        "form": 1,
+        "grammar": 2,
+        "vocabulary": 2
+      },
+      "WE-01": {
+        "content": 3,
+        "form": 2,
+        "development": 2,
+        "grammar": 2,
+        "vocabulary": 2,
+        "spelling": 2,
+        "linguistic": 2
+      },
+      "SST-01": {
+        "content": 2,
+        "form": 2,
+        "grammar": 2,
+        "vocabulary": 2,
+        "spelling": 2
+      }
+    },
+    "gradingStatus": "graded",
+    "createdAt": "2026-11-10T07:24:21.159Z",
+    "updatedAt": "2026-11-10T07:24:21.159Z"
+  }
+]

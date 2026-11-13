@@ -1,0 +1,14 @@
+AUDIO:
+Historically, economic growth was measured strictly by Gross Domestic Product. However, ecological economists emphasize that GDP fails to account for resource depletion, environmental degradation, and unequal income distribution. Modern alternatives like the Genuine Progress Indicator adjust economic figures downward when pollution and resource exhaustion occur, offering a more realistic assessment of societal well-being.
+
+QUESTION:
+According to the speaker, what are key limitations of measuring national progress solely with GDP?
+
+OPTIONS:
+A) It ignores the depletion of non-renewable natural resources.
+B) It fails to account for the societal costs of environmental pollution.
+C) It strictly counts only agricultural yields and ignores software products.
+D) It overlooks the equitable distribution of generated wealth across citizens.
+E) It has been officially outlawed by all United Nations member countries.
+
+ANSWER: A, B, D

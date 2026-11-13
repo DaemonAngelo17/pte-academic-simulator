@@ -1,0 +1,14 @@
+AUDIO:
+In our engineering lab today, we tested a new carbon-fiber composite material designed for aerospace structural frames. The composite demonstrated a forty percent reduction in overall weight compared to conventional aerospace-grade aluminum alloys. Additionally, its fatigue resistance under sustained cyclic loading was markedly superior, although manufacturing costs remain substantially elevated and chemical recycling protocols are still in infancy.
+
+QUESTION:
+Which of the following attributes characterized the new carbon-fiber composite tested in the lab?
+
+OPTIONS:
+A) It achieved a 40% reduction in weight compared to standard aluminum.
+B) It exhibited superior fatigue resistance under cyclic structural stresses.
+C) It was immediately cheaper to fabricate than existing metallic alloys.
+D) Its chemical recycling procedures are not yet fully matured.
+E) It melted quickly when exposed to normal room temperatures.
+
+ANSWER: A, B, D

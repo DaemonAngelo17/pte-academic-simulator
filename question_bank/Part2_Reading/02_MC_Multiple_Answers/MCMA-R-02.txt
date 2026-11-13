@@ -1,0 +1,14 @@
+PASSAGE:
+Plant circadian rhythms regulate diverse physiological processes, including photosynthetic gene expression, floral scent emission, and leaf movement. Synchronized by photoreceptors that detect dawn and dusk light wavelengths, these internal biological clocks anticipate diurnal cycles rather than merely reacting to environmental shifts. Disruption of these circadian clocks has been demonstrated to reduce reproductive fitness and compromise drought resilience in agricultural crops.
+
+QUESTION:
+According to the passage, plant circadian rhythms:
+
+OPTIONS:
+A) Anticipate daily environmental shifts rather than merely responding post facto.
+B) Are mediated in part by wavelength-sensitive photoreceptors.
+C) Remain entirely unaffected by disruptions in light-dark exposure cycles.
+D) Influence flower fragrance release and photosynthetic genetic expression.
+E) Operate exclusively in aquatic algae without any presence in terrestrial crops.
+
+ANSWER: A, B, D

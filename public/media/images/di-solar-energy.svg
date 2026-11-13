@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="600" height="360">
+  <rect width="600" height="360" fill="#ffffff" rx="8" stroke="#cbd5e1"/>
+  <text x="300" y="34" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#0f172a">Cumulative Global Solar Photovoltaic Capacity (GW, 2018–2024)</text>
+  <line x1="70" y1="60" x2="70" y2="290" stroke="#475569" stroke-width="2"/>
+  <line x1="70" y1="290" x2="550" y2="290" stroke="#475569" stroke-width="2"/>
+  <text x="58" y="70" text-anchor="end" font-family="Arial" font-size="11" fill="#64748b">1600 GW</text>
+  <text x="58" y="125" text-anchor="end" font-family="Arial" font-size="11" fill="#64748b">1200 GW</text>
+  <text x="58" y="180" text-anchor="end" font-family="Arial" font-size="11" fill="#64748b">800 GW</text>
+  <text x="58" y="235" text-anchor="end" font-family="Arial" font-size="11" fill="#64748b">400 GW</text>
+  <!-- Bars -->
+  <rect x="90" y="220" width="48" height="70" fill="#f59e0b" rx="4"/>
+  <text x="114" y="212" text-anchor="middle" font-family="Arial" font-size="11" font-weight="bold" fill="#b45309">505</text>
+  <text x="114" y="312" text-anchor="middle" font-family="Arial" font-size="12" fill="#334155">2018</text>
+
+  <rect x="155" y="202" width="48" height="88" fill="#f59e0b" rx="4"/>
+  <text x="179" y="194" text-anchor="middle" font-family="Arial" font-size="11" font-weight="bold" fill="#b45309">635</text>
+  <text x="179" y="312" text-anchor="middle" font-family="Arial" font-size="12" fill="#334155">2019</text>
+
+  <rect x="220" y="180" width="48" height="110" fill="#f59e0b" rx="4"/>
+  <text x="244" y="172" text-anchor="middle" font-family="Arial" font-size="11" font-weight="bold" fill="#b45309">770</text>
+  <text x="244" y="312" text-anchor="middle" font-family="Arial" font-size="12" fill="#334155">2020</text>
+
+  <rect x="285" y="155" width="48" height="135" fill="#f59e0b" rx="4"/>
+  <text x="309" y="147" text-anchor="middle" font-family="Arial" font-size="11" font-weight="bold" fill="#b45309">940</text>
+  <text x="309" y="312" text-anchor="middle" font-family="Arial" font-size="12" fill="#334155">2021</text>
+
+  <rect x="350" y="122" width="48" height="168" fill="#ea580c" rx="4"/>
+  <text x="374" y="114" text-anchor="middle" font-family="Arial" font-size="11" font-weight="bold" fill="#c2410c">1,180</text>
+  <text x="374" y="312" text-anchor="middle" font-family="Arial" font-size="12" fill="#334155">2022</text>
+
+  <rect x="415" y="85" width="48" height="205" fill="#ea580c" rx="4"/>
+  <text x="439" y="77" text-anchor="middle" font-family="Arial" font-size="11" font-weight="bold" fill="#c2410c">1,420</text>
+  <text x="439" y="312" text-anchor="middle" font-family="Arial" font-size="12" fill="#334155">2023</text>
+
+  <rect x="480" y="55" width="48" height="235" fill="#dc2626" rx="4"/>
+  <text x="504" y="47" text-anchor="middle" font-family="Arial" font-size="11" font-weight="bold" fill="#b91c1c">1,610</text>
+  <text x="504" y="312" text-anchor="middle" font-family="Arial" font-size="12" fill="#334155">2024</text>
+</svg>

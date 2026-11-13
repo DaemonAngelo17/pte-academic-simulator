@@ -1,0 +1,10 @@
+AUDIO:
+Recent behavioral studies in animal cognition demonstrate that New Caledonian crows exhibit sophisticated problem-solving abilities, including bending twigs into hooks to extract grubs from tree crevices. This tool-manufacturing capacity is not merely instinctual; young crows observe experienced adults and incrementally refine their crafting technique, indicating cultural transmission of tool-use behavior.
+
+OPTIONS:
+A) New Caledonian crows fabricate hooked tools through learning and adult observation, demonstrating cultural transmission of problem-solving skills rather than pure instinct.
+B) Crows possess innate genetic instructions that dictate the exact angle of hooked twigs without requiring any social observation or cognitive processing.
+C) Tool use among avian species has been entirely debunked as human researcher bias, since birds lack hands and prehensile digits.
+D) Adult crows actively prevent younger crows from observing tool-crafting techniques in order to maintain competitive dominance over forest food supplies.
+
+ANSWER: A

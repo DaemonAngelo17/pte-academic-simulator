@@ -1,0 +1,13 @@
+AUDIO:
+While consumer electric vehicles emit zero direct tailpipe exhaust, the comprehensive carbon footprint of an EV depends fundamentally upon the energy mix powering the local electrical grid. If charging electricity is generated predominantly by burning coal, life-cycle greenhouse gas reductions are modest compared to grids powered by nuclear or renewable sources.
+
+QUESTION:
+What primary factor determines the net life-cycle carbon benefit of electric vehicles?
+
+OPTIONS:
+A) The energy sources comprising the regional power grid used for battery charging.
+B) The color and aerodynamic finish of the vehicle exterior paint.
+C) The brand of radial tires installed by the manufacturer.
+D) The speed at which the vehicle cruises along flat highways.
+
+ANSWER: A

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="600" height="360">
+  <rect width="600" height="360" fill="#ffffff" rx="8" stroke="#cbd5e1"/>
+  <text x="300" y="32" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#0f172a">Ocean Vertical Strata &amp; Light Penetration (Depth in Meters)</text>
+  <!-- Zones -->
+  <rect x="80" y="55" width="440" height="45" fill="#38bdf8" opacity="0.8"/>
+  <text x="300" y="82" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#0369a1">Epipelagic (Sunlight Zone): 0 – 200 m (90% Marine Life)</text>
+
+  <rect x="80" y="105" width="440" height="55" fill="#0284c7" opacity="0.85"/>
+  <text x="300" y="137" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#ffffff">Mesopelagic (Twilight Zone): 200 – 1,000 m (Bioluminescence)</text>
+
+  <rect x="80" y="165" width="440" height="65" fill="#0369a1" opacity="0.9"/>
+  <text x="300" y="202" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#ffffff">Bathypelagic (Midnight Zone): 1,000 – 4,000 m (Total Darkness)</text>
+
+  <rect x="80" y="235" width="440" height="50" fill="#0f172a"/>
+  <text x="300" y="265" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#e2e8f0">Abyssopelagic &amp; Hadal Zone: 4,000 – 11,000 m (Freezing, High Pressure)</text>
+
+  <text x="300" y="322" text-anchor="middle" font-family="Arial" font-size="12" fill="#475569">Key Observation: Light and biodiversity rapidly decrease as depth and hydrostatic pressure increase.</text>
+</svg>

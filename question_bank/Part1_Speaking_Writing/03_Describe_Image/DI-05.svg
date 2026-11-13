@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="600" height="360">
+  <rect width="600" height="360" fill="#ffffff" rx="8" stroke="#cbd5e1"/>
+  <text x="300" y="32" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#0f172a">Cetacean Sightings in Coastal Bay (2017–2020): Dolphins vs Whales</text>
+  <line x1="70" y1="60" x2="70" y2="290" stroke="#475569" stroke-width="2"/>
+  <line x1="70" y1="290" x2="540" y2="290" stroke="#475569" stroke-width="2"/>
+  <!-- 2017 -->
+  <rect x="100" y="229" width="32" height="61" fill="#0ea5e9"/><text x="116" y="223" text-anchor="middle" font-family="Arial" font-size="10" font-weight="bold" fill="#0284c7">203</text>
+  <rect x="136" y="133" width="32" height="157" fill="#1e3a8a"/><text x="152" y="127" text-anchor="middle" font-family="Arial" font-size="10" font-weight="bold" fill="#1e3a8a">522</text>
+  <text x="134" y="312" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" fill="#334155">2017</text>
+  <!-- 2018 -->
+  <rect x="215" y="226" width="32" height="64" fill="#0ea5e9"/><text x="231" y="220" text-anchor="middle" font-family="Arial" font-size="10" font-weight="bold" fill="#0284c7">211</text>
+  <rect x="251" y="214" width="32" height="76" fill="#1e3a8a"/><text x="267" y="208" text-anchor="middle" font-family="Arial" font-size="10" font-weight="bold" fill="#1e3a8a">253</text>
+  <text x="249" y="312" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" fill="#334155">2018</text>
+  <!-- 2019 -->
+  <rect x="330" y="167" width="32" height="123" fill="#0ea5e9"/><text x="346" y="161" text-anchor="middle" font-family="Arial" font-size="10" font-weight="bold" fill="#0284c7">409</text>
+  <rect x="366" y="216" width="32" height="74" fill="#1e3a8a"/><text x="382" y="210" text-anchor="middle" font-family="Arial" font-size="10" font-weight="bold" fill="#1e3a8a">247</text>
+  <text x="364" y="312" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" fill="#334155">2019</text>
+  <!-- 2020 -->
+  <rect x="445" y="136" width="32" height="154" fill="#0ea5e9"/><text x="461" y="130" text-anchor="middle" font-family="Arial" font-size="10" font-weight="bold" fill="#0284c7">513</text>
+  <rect x="481" y="78" width="32" height="212" fill="#1e3a8a"/><text x="497" y="72" text-anchor="middle" font-family="Arial" font-size="10" font-weight="bold" fill="#1e3a8a">707</text>
+  <text x="479" y="312" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" fill="#334155">2020</text>
+  <!-- Legend -->
+  <rect x="200" y="332" width="12" height="12" fill="#0ea5e9"/><text x="218" y="342" font-family="Arial" font-size="11" fill="#334155">Dolphins</text>
+  <rect x="310" y="332" width="12" height="12" fill="#1e3a8a"/><text x="328" y="342" font-family="Arial" font-size="11" fill="#334155">Whales</text>
+</svg>

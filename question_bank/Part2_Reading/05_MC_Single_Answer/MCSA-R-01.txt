@@ -1,0 +1,13 @@
+PASSAGE:
+Glaciologists measuring ice core samples extracted from deep ice sheets in Antarctica have constructed atmospheric carbon dioxide records spanning 800,000 years. Trapped air bubbles in successive snowfall layers preserve ambient atmospheric gas concentrations at the exact epoch the ice compacted. These records unequivocally reveal that contemporary atmospheric CO2 levels exceed any historical threshold documented over the last eight hundred millennia.
+
+QUESTION:
+What is the primary scientific value of ice core air bubbles discussed in the passage?
+
+OPTIONS:
+A) They provide direct physical archives of historical atmospheric gas compositions.
+B) They demonstrate that ancient carbon levels were consistently higher than today.
+C) They prevent Antarctic ice sheets from cracking under geothermal pressures.
+D) They indicate the exact speed of ocean currents during ancient ice ages.
+
+ANSWER: A

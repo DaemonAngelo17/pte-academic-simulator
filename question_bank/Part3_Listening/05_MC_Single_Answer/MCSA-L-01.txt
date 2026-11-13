@@ -1,0 +1,13 @@
+AUDIO:
+In our lecture on urban acoustics, we noted that architectural noise barriers along expressways are most effective when positioned immediately adjacent to the noise source rather than midway between the highway and residential communities. Proximity to traffic prevents acoustic wave diffraction over the barrier crest.
+
+QUESTION:
+Where should highway acoustic barriers be placed to maximize sound reduction?
+
+OPTIONS:
+A) Directly adjacent to the highway traffic source.
+B) Midway between the highway and residential houses.
+C) Only on the rooftops of distant homes.
+D) Underground beneath stormwater drainage tunnels.
+
+ANSWER: A

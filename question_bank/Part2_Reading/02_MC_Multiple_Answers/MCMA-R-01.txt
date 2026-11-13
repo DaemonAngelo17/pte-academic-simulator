@@ -1,0 +1,14 @@
+PASSAGE:
+Archeological excavations in the Indus Valley revealed sophisticated urban planning unparalleled in the ancient Bronze Age world. Cities like Harappa and Mohenjo-daro featured grid-pattern street layouts, multi-story brick dwellings, and intricate covered drainage channels running beneath paved streets. Furthermore, standardized weights and measures found throughout the region indicate centralized administrative coordination and active trade networks with Mesopotamia.
+
+QUESTION:
+Which of the following statements about Indus Valley settlements are supported by the passage?
+
+OPTIONS:
+A) Urban streets were arranged according to systematic grid configurations.
+B) Excavations revealed extensive underground covered sewage drainage systems.
+C) Mesopotamian merchants held complete imperial sovereignty over the Indus cities.
+D) Standardized measurement apparatus suggests centralized administrative control.
+E) The majority of city dwellings were built exclusively from unbaked straw mud.
+
+ANSWER: A, B, D

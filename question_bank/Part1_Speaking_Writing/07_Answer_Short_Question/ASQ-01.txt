@@ -1,0 +1,2 @@
+QUESTION: What instrument is used to measure ambient temperature?
+ANSWER: thermometer

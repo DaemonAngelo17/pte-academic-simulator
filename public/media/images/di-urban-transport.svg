@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 350" width="600" height="350">
+  <rect width="600" height="350" fill="#ffffff" rx="8" stroke="#cbd5e1"/>
+  <text x="300" y="32" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#0f172a">Daily Commuter Transport Modal Split Across 5 Major Cities (%)</text>
+  <line x1="80" y1="60" x2="80" y2="280" stroke="#475569" stroke-width="2"/>
+  <line x1="80" y1="280" x2="550" y2="280" stroke="#475569" stroke-width="2"/>
+  <!-- City 1: Tokyo -->
+  <rect x="100" y="110" width="22" height="170" fill="#2563eb"/><text x="111" y="103" text-anchor="middle" font-family="Arial" font-size="10" font-weight="bold" fill="#1e40af">51%</text>
+  <rect x="124" y="240" width="22" height="40" fill="#dc2626"/><text x="135" y="233" text-anchor="middle" font-family="Arial" font-size="10" font-weight="bold" fill="#b91c1c">12%</text>
+  <rect x="148" y="220" width="22" height="60" fill="#16a34a"/><text x="159" y="213" text-anchor="middle" font-family="Arial" font-size="10" font-weight="bold" fill="#15803d">18%</text>
+  <text x="135" y="300" text-anchor="middle" font-family="Arial" font-size="11" font-weight="bold" fill="#1e293b">Tokyo</text>
+
+  <!-- City 2: London -->
+  <rect x="190" y="157" width="22" height="123" fill="#2563eb"/><text x="201" y="150" text-anchor="middle" font-family="Arial" font-size="10" font-weight="bold" fill="#1e40af">37%</text>
+  <rect x="214" y="174" width="22" height="106" fill="#dc2626"/><text x="225" y="167" text-anchor="middle" font-family="Arial" font-size="10" font-weight="bold" fill="#b91c1c">32%</text>
+  <rect x="238" y="260" width="22" height="20" fill="#16a34a"/><text x="249" y="253" text-anchor="middle" font-family="Arial" font-size="10" font-weight="bold" fill="#15803d">6%</text>
+  <text x="225" y="300" text-anchor="middle" font-family="Arial" font-size="11" font-weight="bold" fill="#1e293b">London</text>
+
+  <!-- City 3: Amsterdam -->
+  <rect x="280" y="200" width="22" height="80" fill="#2563eb"/><text x="291" y="193" text-anchor="middle" font-family="Arial" font-size="10" font-weight="bold" fill="#1e40af">24%</text>
+  <rect x="304" y="217" width="22" height="63" fill="#dc2626"/><text x="315" y="210" text-anchor="middle" font-family="Arial" font-size="10" font-weight="bold" fill="#b91c1c">19%</text>
+  <rect x="328" y="130" width="22" height="150" fill="#16a34a"/><text x="339" y="123" text-anchor="middle" font-family="Arial" font-size="10" font-weight="bold" fill="#15803d">45%</text>
+  <text x="315" y="300" text-anchor="middle" font-family="Arial" font-size="11" font-weight="bold" fill="#1e293b">Amsterdam</text>
+
+  <!-- City 4: New York -->
+  <rect x="370" y="180" width="22" height="100" fill="#2563eb"/><text x="381" y="173" text-anchor="middle" font-family="Arial" font-size="10" font-weight="bold" fill="#1e40af">30%</text>
+  <rect x="394" y="163" width="22" height="117" fill="#dc2626"/><text x="405" y="156" text-anchor="middle" font-family="Arial" font-size="10" font-weight="bold" fill="#b91c1c">35%</text>
+  <rect x="418" y="270" width="22" height="10" fill="#16a34a"/><text x="429" y="263" text-anchor="middle" font-family="Arial" font-size="10" font-weight="bold" fill="#15803d">3%</text>
+  <text x="405" y="300" text-anchor="middle" font-family="Arial" font-size="11" font-weight="bold" fill="#1e293b">New York</text>
+
+  <!-- City 5: Sydney -->
+  <rect x="460" y="207" width="22" height="73" fill="#2563eb"/><text x="471" y="200" text-anchor="middle" font-family="Arial" font-size="10" font-weight="bold" fill="#1e40af">22%</text>
+  <rect x="484" y="120" width="22" height="160" fill="#dc2626"/><text x="495" y="113" text-anchor="middle" font-family="Arial" font-size="10" font-weight="bold" fill="#b91c1c">48%</text>
+  <rect x="508" y="270" width="22" height="10" fill="#16a34a"/><text x="519" y="263" text-anchor="middle" font-family="Arial" font-size="10" font-weight="bold" fill="#15803d">3%</text>
+  <text x="495" y="300" text-anchor="middle" font-family="Arial" font-size="11" font-weight="bold" fill="#1e293b">Sydney</text>
+
+  <!-- Legend -->
+  <rect x="180" y="325" width="12" height="12" fill="#2563eb"/><text x="198" y="335" font-family="Arial" font-size="11" fill="#334155">Public Transit</text>
+  <rect x="290" y="325" width="12" height="12" fill="#dc2626"/><text x="308" y="335" font-family="Arial" font-size="11" fill="#334155">Private Car</text>
+  <rect x="390" y="325" width="12" height="12" fill="#16a34a"/><text x="408" y="335" font-family="Arial" font-size="11" fill="#334155">Cycling &amp; Walking</text>
+</svg>

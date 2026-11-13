@@ -1,0 +1,13 @@
+AUDIO:
+During the late Middle Ages, merchant guilds exercised strict control over urban craftsmanship, regulating apprenticeship durations and enforcing uniform standards of product [BEEP].
+
+QUESTION:
+Select the word that correctly replaces the [BEEP].
+
+OPTIONS:
+A) quality
+B) climate
+C) extinction
+D) radiation
+
+ANSWER: A

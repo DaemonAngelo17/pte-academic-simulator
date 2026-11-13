@@ -1,0 +1,2 @@
+QUESTION: What is the anatomical joint that connects the human foot to the leg?
+ANSWER: ankle

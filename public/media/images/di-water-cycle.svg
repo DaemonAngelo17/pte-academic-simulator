@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 350" width="600" height="350">
+  <rect width="600" height="350" fill="#ffffff" rx="8" stroke="#cbd5e1"/>
+  <text x="300" y="34" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#0f172a">Stages of the Terrestrial Hydrological (Water) Cycle</text>
+  <!-- Solar Sun -->
+  <circle cx="100" cy="90" r="30" fill="#f59e0b"/><text x="100" y="95" text-anchor="middle" font-family="Arial" font-size="10" font-weight="bold" fill="#ffffff">Solar Heat</text>
+  <!-- Clouds -->
+  <ellipse cx="280" cy="85" rx="55" ry="25" fill="#94a3b8"/><text x="280" y="90" text-anchor="middle" font-family="Arial" font-size="11" font-weight="bold" fill="#ffffff">Condensation</text>
+  <!-- Precipitation -->
+  <line x1="430" y1="110" x2="415" y2="170" stroke="#0284c7" stroke-width="2" stroke-dasharray="4,4"/>
+  <line x1="460" y1="110" x2="445" y2="170" stroke="#0284c7" stroke-width="2" stroke-dasharray="4,4"/>
+  <text x="470" y="145" font-family="Arial" font-size="11" font-weight="bold" fill="#0284c7">Precipitation</text>
+  <!-- Mountain -->
+  <polygon points="340,290 440,160 540,290" fill="#64748b"/>
+  <!-- Ocean/Lake -->
+  <rect x="50" y="260" width="260" height="50" fill="#38bdf8" rx="4"/>
+  <text x="180" y="290" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" fill="#0369a1">Ocean Evaporation</text>
+  <!-- Evaporation arrows -->
+  <line x1="180" y1="250" x2="220" y2="130" stroke="#ea580c" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="215" y="190" font-family="Arial" font-size="11" font-weight="bold" fill="#ea580c">Evaporation</text>
+  <!-- Surface runoff -->
+  <path d="M430,220 Q350,250 290,270" fill="none" stroke="#0284c7" stroke-width="3"/>
+  <text x="350" y="275" font-family="Arial" font-size="11" font-weight="bold" fill="#0284c7">Surface Runoff</text>
+  <text x="300" y="332" text-anchor="middle" font-family="Arial" font-size="12" fill="#475569">Continuous continuous cycle: Evaporation &rarr; Condensation &rarr; Precipitation &rarr; Runoff.</text>
+</svg>

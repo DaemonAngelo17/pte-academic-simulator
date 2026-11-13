@@ -1,0 +1,14 @@
+{
+  "grokApiKey": "",
+  "googleSheetWebhookUrl": "https://script.google.com/macros/s/AKfycby6iuybEkkG3qc6x8WNT9Vzo9h0KLQ0eWCi-BOiCpCktLGr6qEfQhO-Te87hAVQhe8WYg/exec",
+  "autoSyncToGoogleSheet": true,
+  "aiProvider": "grok",
+  "aiModel": "grok-2",
+  "aiEndpoint": "https://api.x.ai/v1",
+  "ttsEngine": "edge",
+  "ttsVoice": "en-GB-SoniaNeural",
+  "elevenlabsVoiceId": "",
+  "localTtsEndpoint": "",
+  "customWebhookUrl": "",
+  "autoSyncToCustomWebhook": false
+}

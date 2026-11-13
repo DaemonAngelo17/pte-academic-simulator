@@ -1,0 +1,10 @@
+AUDIO:
+Agriculturalists in arid zones are increasingly adopting drip irrigation technology rather than traditional flood irrigation. Flood methods result in substantial water loss due to surface evaporation and runoff, and they exacerbate soil salinization. By delivering precise moisture volumes directly to crop roots, drip irrigation conserves up to sixty percent more water and enhances crop productivity.
+
+OPTIONS:
+A) Drip irrigation delivers targeted water to crop roots, drastically reducing evaporation and salinization while conserving significant water resources compared to flood irrigation.
+B) Flood irrigation is universally superior because water runoff dissolves vital soil minerals and enriches nearby rivers with beneficial nutrients.
+C) Arid agriculture must abandon all forms of irrigation because artificial watering invariably causes unrecoverable root rot across all crop species.
+D) Drip irrigation technology consumes double the water of flood irrigation but is mandated by environmental regulations to protect salinized soils.
+
+ANSWER: A

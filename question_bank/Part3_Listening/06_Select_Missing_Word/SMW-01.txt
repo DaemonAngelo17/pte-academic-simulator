@@ -1,0 +1,13 @@
+AUDIO:
+Modern architectural engineering prioritizes building envelope integrity. By installing high-performance double glazing and airtight vapor barriers, structures minimize passive heat dissipation, leading to substantial reductions in energy [BEEP].
+
+QUESTION:
+Select the option that most appropriately completes the recording ending with [BEEP].
+
+OPTIONS:
+A) consumption
+B) evaporation
+C) fertilization
+D) reproduction
+
+ANSWER: A

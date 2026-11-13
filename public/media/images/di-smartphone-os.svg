@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="600" height="360">
+  <rect width="600" height="360" fill="#ffffff" rx="8" stroke="#cbd5e1"/>
+  <text x="300" y="34" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#0f172a">Worldwide Mobile OS Market Share Progression (%)</text>
+  <line x1="70" y1="60" x2="70" y2="290" stroke="#475569" stroke-width="2"/>
+  <line x1="70" y1="290" x2="550" y2="290" stroke="#475569" stroke-width="2"/>
+  <!-- Android Line -->
+  <polyline fill="none" stroke="#16a34a" stroke-width="4" points="100,140 180,120 260,110 340,105 420,100 500,95"/>
+  <!-- iOS Line -->
+  <polyline fill="none" stroke="#2563eb" stroke-width="4" points="100,220 180,230 260,235 340,240 420,245 500,248"/>
+  <circle cx="500" cy="95" r="5" fill="#15803d"/><text x="515" y="98" font-family="Arial" font-size="12" font-weight="bold" fill="#15803d">Android: 71%</text>
+  <circle cx="500" cy="248" r="5" fill="#1d4ed8"/><text x="515" y="252" font-family="Arial" font-size="12" font-weight="bold" fill="#1d4ed8">iOS: 28%</text>
+  <text x="100" y="312" text-anchor="middle" font-family="Arial" font-size="11" fill="#334155">2016</text>
+  <text x="180" y="312" text-anchor="middle" font-family="Arial" font-size="11" fill="#334155">2018</text>
+  <text x="260" y="312" text-anchor="middle" font-family="Arial" font-size="11" fill="#334155">2020</text>
+  <text x="340" y="312" text-anchor="middle" font-family="Arial" font-size="11" fill="#334155">2022</text>
+  <text x="420" y="312" text-anchor="middle" font-family="Arial" font-size="11" fill="#334155">2024</text>
+  <text x="500" y="312" text-anchor="middle" font-family="Arial" font-size="11" fill="#334155">2026</text>
+  <!-- Legend -->
+  <rect x="210" y="332" width="12" height="12" fill="#16a34a"/><text x="228" y="342" font-family="Arial" font-size="11" fill="#334155">Android</text>
+  <rect x="310" y="332" width="12" height="12" fill="#2563eb"/><text x="328" y="342" font-family="Arial" font-size="11" fill="#334155">iOS</text>
+</svg>

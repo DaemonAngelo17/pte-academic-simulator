@@ -1,0 +1,11 @@
+[
+  {
+    "id": "SESSION-DEFAULT",
+    "sessionCode": "PTE-2026-A",
+    "title": "Full PTE Academic Mock Test (Classroom Batch A)",
+    "mode": "full",
+    "randomizeQuestions": true,
+    "status": "active",
+    "createdAt": "2026-11-10T10:40:16.783Z"
+  }
+]

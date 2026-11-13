@@ -1,0 +1,2 @@
+QUESTION: How many geometric sides does a hexagon possess?
+ANSWER: six

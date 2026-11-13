@@ -1,0 +1,2 @@
+TITLE: Describe Image 01: Sleep Duration by Age Group (Bar Chart)
+NOTES: Bar chart comparing Solar PV (64%), Wind (52%), Hydro (39%), and Biomass (21%) from 2015 to 2025.
