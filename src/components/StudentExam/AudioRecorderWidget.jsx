@@ -595,8 +595,8 @@ export default function AudioRecorderWidget({
               style={{ width: `${prepProgressPercent}%` }}
             />
           </div>
-          <div className="flex items-center justify-between text-[11px] text-slate-500">
-            <span>
+          <div className="flex items-center justify-between text-xs text-slate-600 pt-0.5">
+            <span className="text-[11px] text-slate-500">
               {shouldPlayBeep
                 ? 'A short tone will sound when recording begins'
                 : 'Mic opens immediately without a tone'}
@@ -607,9 +607,11 @@ export default function AudioRecorderWidget({
                 if (timerRef.current) clearInterval(timerRef.current);
                 startMicRecording();
               }}
-              className="text-blue-700 hover:underline font-semibold"
+              className="px-3 py-1 bg-blue-600 hover:bg-blue-700 text-white rounded-md text-xs font-bold transition flex items-center space-x-1 shadow-xs cursor-pointer active:scale-95"
+              title="Skip remaining preparation countdown and begin recording immediately"
             >
-              Start Recording Now →
+              <Mic className="w-3.5 h-3.5" />
+              <span>Record Now ({prepRemaining}s)</span>
             </button>
           </div>
         </div>

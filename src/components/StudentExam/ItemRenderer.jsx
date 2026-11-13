@@ -169,7 +169,7 @@ export default function ItemRenderer({
 
         {/* Audio Recording Component with custom timing overrides */}
         <AudioRecorderWidget
-          prepSeconds={item.timingOverrides?.prepSeconds ?? item.prepSeconds ?? 35}
+          prepSeconds={item.taskType === 'PI' ? 3 : (item.timingOverrides?.prepSeconds ?? 10)}
           recordSeconds={item.timingOverrides?.recordSeconds ?? item.recordSeconds ?? 40}
           onRecordingComplete={(recData) => {
             onResponseChange({

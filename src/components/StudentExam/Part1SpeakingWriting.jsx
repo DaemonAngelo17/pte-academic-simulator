@@ -156,10 +156,12 @@ export default function Part1SpeakingWriting({
   const currentResponse = currentItem ? responses[currentItem.id] || {} : {};
 
   // Determine if current item has an audio prompt that must finish before recording starts
-  const hasSpokenPrompt =
+  // Note: Only RS, RL, SGD, RTS, and ASQ play spoken audio prompts. PI, RA, DI are visually read and do NOT play audio prompts.
+  const hasSpokenPrompt = Boolean(
     currentItem &&
-    !['SWT', 'WE', 'RA', 'DI'].includes(currentItem.taskType) &&
-    Boolean(currentItem.audioText || currentItem.audioUrl || currentItem.prompt);
+    ['RS', 'RL', 'SGD', 'RTS', 'ASQ'].includes(currentItem.taskType) &&
+    (currentItem.audioText || currentItem.audioUrl || currentItem.prompt)
+  );
 
   // Synchronously derived: Audio is playing until this specific item ID finishes playing
   const isAudioPromptPlaying = Boolean(
@@ -748,7 +750,7 @@ export default function Part1SpeakingWriting({
                       taskType={currentItem.taskType}
                       itemId={currentItem.id}
                       candidateId={studentInfo.studentId}
-                      prepSeconds={currentItem.timingOverrides?.prepSeconds ?? currentItem.prepSeconds ?? 25}
+                      prepSeconds={currentItem.timingOverrides?.prepSeconds ?? 10}
                       recordSeconds={currentItem.timingOverrides?.recordSeconds ?? currentItem.recordSeconds ?? 40}
                       waitForAudioPrompt={false}
                       onRecordingComplete={(recData) =>
@@ -815,15 +817,12 @@ export default function Part1SpeakingWriting({
                   itemId={currentItem.id}
                   candidateId={studentInfo.studentId}
                   prepSeconds={
-                    currentItem.timingOverrides?.prepSeconds ??
-                    currentItem.prepSeconds ??
-                    (hasSpokenPrompt
+                    currentItem.taskType === 'PI'
                       ? 3
-                      : currentItem.taskType === 'PI'
-                      ? 25
-                      : currentItem.taskType === 'DI'
-                      ? 25
-                      : 35)
+                      : currentItem.taskType === 'RA'
+                      ? (currentItem.timingOverrides?.prepSeconds ?? 10)
+                      : (currentItem.timingOverrides?.prepSeconds ??
+                         (hasSpokenPrompt ? 3 : (currentItem.prepSeconds || 10)))
                   }
                   recordSeconds={
                     currentItem.timingOverrides?.recordSeconds ??
