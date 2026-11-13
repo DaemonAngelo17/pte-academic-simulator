@@ -85,15 +85,6 @@ function AppContent() {
       if (viewParam === 'teacher' || viewParam === 'portal') {
         return 'teacher';
       }
-      const savedCp = localStorage.getItem('pte_active_checkpoint');
-      if (savedCp) {
-        const parsed = JSON.parse(savedCp);
-        const savedTime = parsed.savedAt ? new Date(parsed.savedAt).getTime() : 0;
-        const hoursAgo = (Date.now() - savedTime) / (1000 * 60 * 60);
-        if (parsed.isExamStarted && parsed.currentSectionPhase !== 'COMPLETED' && hoursAgo < 24) {
-          return 'student';
-        }
-      }
     } catch {}
     return 'landing';
   });
